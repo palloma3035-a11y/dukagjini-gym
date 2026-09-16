@@ -110,23 +110,6 @@
 
 footer p { white-space: pre-line; }
 
-@media (min-width: 1024px) {
-  header nav[aria-label="Navigimi kryesor"] {
-    flex-wrap: wrap;
-    row-gap: 0.25rem;
-  }
-
-  header nav[aria-label="Navigimi kryesor"]::after {
-    width: 100%;
-    color: var(--color-muted-foreground);
-    content: "Hënë–Shtunë: 07:00–22:00\A E diel: e mbyllur";
-    font-size: 0.65rem;
-    line-height: 1.35;
-    text-align: center;
-    white-space: pre;
-  }
-}
-
 @media (prefers-reduced-motion: reduce) {
   html { scroll-behavior: auto; }
   *, *::before, *::after { animation-duration: 0.01ms !important; transition-duration: 0.01ms !important; }
