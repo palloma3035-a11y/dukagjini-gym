@@ -11,7 +11,7 @@ export const gym = {
   mapsQuery: "Rruga Dëshmorët e Kombit, Klinë, Kosovo",
   about:
     "Dukagjini GYM është palestër lokale në Klinë, e fokusuar t’ju ndihmojë të përmirësoni forcën, kondicionin dhe mirëqenien fizike në një ambient motivues.",
-  openingHours: "Kontaktoni për orarin",
+  openingHours: "Hënë–Sabat: 07:00–22:00 | E diel: e mbyllur",
 } as const;
 
 // Çmimet e anëtarësimit — përditësohen vetëm këtu kur të ndryshojnë.
